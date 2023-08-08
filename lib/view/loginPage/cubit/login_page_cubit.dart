@@ -13,6 +13,6 @@ class LoginPageCubit extends Cubit<LoginPageState> {
 
   void setValue(bool value) {
     emit(LoginPageState(
-        valueChange: value)); // Set the boolean value and emit the new state
+        valueChange: value)); 
   }
 }

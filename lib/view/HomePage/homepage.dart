@@ -250,7 +250,7 @@ class HomePage extends StatelessWidget {
               ),
               floatingActionButton: InkWell(
                 onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const DetailPage(),
+                  builder: (context) =>  DetailPage(),
                 )),
                 child: Container(
                   height: 60,
